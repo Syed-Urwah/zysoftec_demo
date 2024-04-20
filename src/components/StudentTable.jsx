@@ -50,7 +50,7 @@ export default function StudentTable({ students, setEditStudent }) {
 
     return (
         <Table>
-            <TableCaption>A list of your recent invoices.</TableCaption>
+            <TableCaption>list of students.</TableCaption>
             <TableHeader>
                 <TableRow>
                     <TableHead className="w-[100px]">Email</TableHead>
@@ -75,12 +75,7 @@ export default function StudentTable({ students, setEditStudent }) {
                     </>
                 ))}
             </TableBody>
-            <TableFooter>
-                <TableRow>
-                    <TableCell colSpan={3}>Total</TableCell>
-                    <TableCell className="text-right">$2,500.00</TableCell>
-                </TableRow>
-            </TableFooter>
+            
         </Table>
     )
 }
